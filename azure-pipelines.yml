@@ -58,5 +58,5 @@ jobs:
     inputs:
      script: |
       echo Write your commands here
-      
+      echo.$(Build.DefinitionName)
       echo Hello world
